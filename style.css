@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 nav {
+    height: 80px;
+    width: 100%;
     display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+
+nav span {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav span a {
+    font-family: 'Poppins';
+    text-decoration: none;
+    padding: 10px;
 }
 
 .mainlogo {
-
     font-family: 'Poppins';
-    border: 1px solid;
-    Width: 243px;
-    height: 52.2px;
-    background-color: aqua;
+    margin-left: 100px;
+
 }
