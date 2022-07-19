@@ -10,25 +10,41 @@
         .page {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            row-gap: 20px;
-            column-gap: 20px;
+            grid-template-rows: 30px repeat(5, 75px);
+            row-gap: 50px;
+            column-gap: 40px;
         }
 
-        .date {
+        .date,
+        .day {
             color: azure;
-            font-size: 50px;
+            font-size: 40px;
             background-color: royalblue;
-            height: 75px;
             display: flex;
             justify-content: center;
             align-items: center;
             border-radius: 15px;
+        }
+
+
+
+        .other {
+            background-color: cadetblue;
         }
     </style>
 </head>
 
 <body>
     <div class="page">
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">W</div>
+        <div class="day">T</div>
+        <div class="day">F</div>
+        <div class="day">S</div>
+        <div class="date other">30</div>
+        <div class="date other">31</div>
         <div class="date">1</div>
         <div class="date">2</div>
         <div class="date">3</div>
@@ -60,10 +76,9 @@
         <div class="date">29</div>
         <div class="date">30</div>
         <div class="date">31</div>
-        <div class="date">32</div>
-        <div class="date">33</div>
-        <div class="date">34</div>
-        <div class="date">35</div>
+        <div class="date other">1</div>
+        <div class="date other">2</div>
+
     </div>
 </body>
 
