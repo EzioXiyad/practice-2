@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+nav {
+    display: flex;
+}
+
+.mainlogo {
+
+    font-family: 'Poppins';
+    border: 1px solid;
+    Width: 243px;
+    height: 52.2px;
+    background-color: aqua;
+}
